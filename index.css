@@ -1,49 +1,72 @@
-.h1-msg1 {
-    background-color:rgb(130, 226, 159); 
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    color: black; 
-    text-align: center;
-    text-shadow: 3px 2px olivedrab
+.media-object {
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
-.h1-msg2 {
-    background-color:rgb(224, 226, 130); 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black; 
-    text-align: center;
-}
-h2 {
-    background-color:rgb(225, 145, 228); 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: black; 
-    text-align: center;
-}
-h3 {
-    background-color:rgb(199, 230, 59); 
-    color: black; 
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-p {
-    text-align: center;
-}
-img {
+.img-1 {
     display: block;
+    width: 78%;
     margin: auto;
-    width: 45%;
     border: 2px rgb(69, 233, 20) solid;
     border-top-left-radius: 120px;
     border-top-right-radius: 120px;
     border-bottom-left-radius: 120px;
     border-bottom-right-radius: 120px;
     overflow: hidden;
+    size: 300px 200px
 }
-#div-2 {
-    display: table;
-    margin: 0 auto;
+.img-2 {
+    display: block;
+    width: 74%;
+    margin: auto;
+    border: 2px rgb(233, 20, 20) solid;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    overflow: hidden;
 }
-body {
-    background-image: url('images/background.jpg');
-    background-size: 1100px 1100px;
+.img-3 {
+    display: block;
+    width: 55%;
+    margin: auto;
+    border: 2px rgb(35, 3, 151) solid;
+    overflow: hidden;
+}
+.img-4 {
+    display: block;
+    width: 95%;
+    border: 2px rgb(233, 148, 20) solid;
+    overflow: hidden;
+}
+.jumbotron {
+    background-image: url('images/deep-blue-sea-blue-deep-2859668-1920x1080.jpg');
     background-repeat: no-repeat;
-    background-position: right top;
+    background-size: 1600px 800px;
+}
+.text {
+    color: white !important;
+    text-shadow: 3px 1px rgb(180, 22, 146);
+    font-family: 'Assistant', sans-serif;
+}
+.query {
+    color: rgb(22, 14, 15);
+    background-color: rgba(226, 228, 113, 0.3);
+    font-family: 'Assistant', sans-serif;
+}
+button {
+    float: right;
+    display: inline;
+    margin-right: 30px;
+}
+h3 {
+    font-size: 90%;
+}
+.col-md-3{
+    border-style: groove;
+    height: 390px;
+}
+#reset{
+    color: grey !important;
 }
