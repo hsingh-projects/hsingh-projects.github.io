@@ -1,0 +1,40 @@
+.menuitem {
+    display: inline;
+    font-family: monospace;
+    font-size: 2em;
+    background-color: lightsteelblue;
+    padding: 10px;
+    color: blue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 7px;
+    transition-property: border-bottom;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+}
+
+.menuitem:hover {
+    border-bottom: 2px magenta solid;
+}
+#box-a {
+    width: 500px;
+    height: 500px;
+    border: red 2px solid;
+    background-color:yellow;
+    opacity: 0.1;
+    box-shadow: 0px 0px 0px grey;
+    transform: translate(50px, 150px);
+
+    transition-property: box-shadow, opacity, width, height, border, border-radius, background-color;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+}
+#box-a:hover {
+    box-shadow: 7px 7px 7px grey;
+    opacity: 1.0;
+    width: 150px;
+    height: 150px;
+    border: blue 2px solid;
+    border-radius: 90px;
+    background-color: lightblue;
+}
