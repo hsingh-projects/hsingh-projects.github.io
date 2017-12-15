@@ -1,3 +1,8 @@
+.panel {
+    position: relative;
+    top:8px;
+}
+
 .media-object {
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
@@ -5,6 +10,8 @@
     border-top-right-radius: 50px;
 }
 .img-1 {
+    position: relative;
+    top: 10px;
     display: block;
     width: 78%;
     margin: auto;
@@ -17,6 +24,8 @@
     size: 300px 200px
 }
 .img-2 {
+    position: relative;
+    top: 10px;
     display: block;
     width: 74%;
     margin: auto;
@@ -28,15 +37,20 @@
     overflow: hidden;
 }
 .img-3 {
+    position: relative;
+    top: 10px;
     display: block;
-    width: 55%;
+    width: 53%;
     margin: auto;
     border: 2px rgb(35, 3, 151) solid;
     overflow: hidden;
 }
 .img-4 {
+    position: relative;
+    top: 10px;
+    margin:auto;
     display: block;
-    width: 95%;
+    width: 87%;
     border: 2px rgb(233, 148, 20) solid;
     overflow: hidden;
 }
@@ -45,7 +59,7 @@
     background-repeat: no-repeat;
     background-size: 1600px 800px;
 }
-.text {
+.subject {
     color: white !important;
     text-shadow: 3px 1px rgb(180, 22, 146);
     font-family: 'Assistant', sans-serif;
@@ -53,9 +67,9 @@
 .query {
     color: rgb(22, 14, 15);
     background-color: rgba(226, 228, 113, 0.3);
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Open+Sans', sans-serif;
 }
-button {
+.btn-lg {
     float: right;
     display: inline;
     margin-right: 30px;
@@ -65,8 +79,33 @@ h3 {
 }
 .col-md-3{
     border-style: groove;
-    height: 390px;
 }
-#reset{
-    color: grey !important;
+h4 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-size: 14px !important;
+}
+.footer {
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(7, 37, 102);
+    clear: both;
+    font-weight: 400;
+    color: white;
+}
+.register{
+    text-align: center;
+    background-color: #333;
+    color: rgb(56, 202, 247);
+}
+#back{
+    position: relative;
+    left: 300px;
+    font-family: Ruda;
+    font-size: 120%;
+}
+#backButton{
+    position: relative;
+    right: 400px;
+    bottom: 43px;
 }

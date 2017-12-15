@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>05_01_manipulating_array</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+<p>
+    <label for="text-to-add">Item to add:</label>
+    <input type="text" id="text-to-add">
+</p>
+
+<p>
+    Adding item to
+    <button onclick="pushItem()">end</button>
+    <button onclick="unshiftItem()">front</button>
+</p>
+
+<p>
+    Remove the
+    <button onclick="popItem()">last</button>
+    <button onclick="shiftItem()">first</button>
+    item
+</p>
+
+<p>
+    Splicing (Add/Remove) the item at
+    <input type="number" id="position-to-splice">
+    position
+    <button onclick="spliceAddItem()">Add</button>
+    <button onclick="spliceRemoveItem()">Remove</button>
+</p>
+
+<hr>
+<p id="display"></p>
+
+<script src="exercise5.js"></script>
+</body>
+</html>
