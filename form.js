@@ -119,3 +119,26 @@ function checkAnswer() {
 document.getElementById('myForm').addEventListener('change', onChange, false);
 
        */
+      If(gridRadios.checked){
+        submitBtn.disabled = false;
+        message.innerHTML = "";
+        } else {
+        submitBtn.disabled = true;
+        message.innerHTML = "Please agree to the terms";
+        }
+    
+    }
+    
+    /*function checkEnableSubmit() {
+        var text1 = document.getElementById.value('inputName');
+        return n;
+        var m = n.length;
+        if (n < 3) {
+            button.disabled = true;
+        }
+     }
+    
+     console.log(m);
+    
+     console.log(checkEnableSubmit);
+     */

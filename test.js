@@ -1,6 +1,6 @@
 
 
-var ciyClass = ["Class A", 1,"Class C"];
+/*var ciyClass = ["Class A", 1,"Class C"];
 
 var oneClass = "Class D";
 
@@ -19,3 +19,6 @@ ciyClass.splice(2, 0, "Class B+");
 console.log(ciyClass);
 ciyClass.splice(1,0,"Class A+");
 ciyClass.splice(2, 0, "Class A-");
+
+*/
+
