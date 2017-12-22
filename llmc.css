@@ -1,0 +1,27 @@
+.jumbotron {
+    background-image: url('images/hanpenn.jpg');
+    background-repeat: no-repeat;
+    background-size: 1390px 750px;
+}
+
+h1 {
+    color: white !important;
+    background-color: rgba(7, 120, 139, 0.5);
+}
+
+.center_image {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .vcenter {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 40%;
+      margin: auto;
+  }
